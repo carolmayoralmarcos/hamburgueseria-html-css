@@ -1,0 +1,75 @@
+/* inicio de header */
+
+header .nav-top {
+    background-color: var(--colorsecundario);
+    padding: 1.25rem 0;
+}
+
+header .nav-top .container {
+    display: flex;
+    justify-content: space-around;
+
+    & a {
+        text-decoration: none;
+    }
+
+    & span {
+        color: white;
+        display: none;
+    }
+
+    & i {
+        color: var(--colorprincipal);
+        font-size: 140%;
+    }
+}
+
+header nav .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.25rem 0.625rem;
+}
+
+header nav .hamburger {
+    width: 1.875rem;
+    cursor: pointer;
+
+    & div {
+        border-top: 0.125rem solid #aaa;
+        margin-bottom: 0.625rem;
+    }
+}
+
+header figure {
+    width: calc(100% - 1.875rem);
+
+    & a {
+        display: inline-block;
+        width: 6.25rem;
+    }
+}
+
+header nav .menu {
+    width: 100%;
+}
+
+header nav .menu a {
+    display: block;
+    padding: 20px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #aaa;
+    border-bottom: 1px solid #aaa;
+
+    &:hover {
+        color: var(--colorprincipal)
+    }
+}
+
+header nav .menu li:last-child a {
+    border-bottom: 0px;
+}
+
+header nav .menu .activo {
+    color: var(--colorprincipal)
+}

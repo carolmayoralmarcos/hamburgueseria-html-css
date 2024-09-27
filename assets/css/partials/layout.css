@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+:root {
+    --fuenteprincipal: "Montserrat", sans-serif;
+    --fuentetitulos: "Handlee", cursive;
+    --colorprincipal: #fa573f;
+    --colorsecundario: #21242e;
+    --fontsize: 1rem;
+    --anchomaximo: 68.75rem;
+    --gap: 1rem;
+}
+
+body {
+    font-family: var(--fuenteprincipal);
+    font-size: var(--fontsize);
+}
+
+.container {
+    max-width: var(--anchomaximo);
+    margin: 0 auto;
+}

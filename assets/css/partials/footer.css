@@ -1,0 +1,27 @@
+footer {
+    background-color: var(--colorsecundario);
+    padding: 1.25rem 0rem;
+    color: white;
+    text-align: center;
+
+    & a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: var(--colorprincipal)
+        }
+    }
+}
+
+.arrow {
+    position: fixed;
+    color: var(--colorprincipal);
+    font-size: 300%;
+    right: 0.625rem;
+    bottom: 3.75rem;
+
+    & a {
+        color: inherit;
+    }
+}
